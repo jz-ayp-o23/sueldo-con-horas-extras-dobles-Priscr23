@@ -24,6 +24,8 @@ if horas_semanal <= 48:
   
 
 elif horas_semanal > 48:
-    print("Su sueldo es: ", pago_extra)
+    print("Horas extras: ", horas_extras)
+    print("Sueldo por horas extras: ", compensacion)
+    print("Sueldo total: ", pago_extra)
 
 
